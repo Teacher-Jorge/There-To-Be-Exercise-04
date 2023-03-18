@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Bangers&family=Racing+Sans+One&display=swap');
+
+.container {
+    max-width: 350px;
+    max-height: 600px;
+    margin: 5px auto;
+    justify-content: center;
+    display: grid;
+}
+
+.heading {
+    margin: 5px auto;
+    font-family: 'bangers';
+    font-size: 30px;
+    color: rgb(85, 176, 255);
+    text-shadow: 1px 1px 2px black;
+}
+
+.img01 {
+    width: 350px;
+    position:relative;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+   }
+
+   .img02 {
+    width: 240px;
+    position:absolute;
+    visibility: hidden;
+   }
+
+   .image {
+    display: flex;
+    margin: -250px auto;
+    justify-content: center;
+   }
+
+.sentence {
+    margin: 2px auto;
+    font-family: 'racing sans one';
+    font-size: 35px;
+    color: rgb(255, 72, 0);
+    text-shadow: 1px 1px 2px black;
+}
+
+span {
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.btn {
+    width: 100px;
+    margin: 5px;
+    font-family: 'racing sans one';
+    font-size: 30px;
+    background-color: aliceblue;
+    border-style: none;
+    box-shadow: 1px 1px 2px black;
+    border-radius: 10px;
+    color: rgb(135, 227, 255);
+    text-shadow: 1px 1px 2px black;
+    cursor: pointer;
+}
+
+.btn:active {
+    box-shadow: 0 0 0;
+    color:rgb(255, 251, 0)
+}
+
+.translate {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+#btnTranslate {
+    width: 330px;
+    margin: 5px;
+    font-family: 'racing sans one';
+    font-size: 25px;
+    background-color: aliceblue;
+    border-style: none;
+    box-shadow: 1px 1px 2px black;
+    border-radius: 10px;
+    color: rgb(232, 58, 255);
+    text-shadow: 1px 1px 2px black;
+    cursor: pointer;
+}
+
+#btnTranslate:active {
+    box-shadow: 0 0 0;
+    color:rgb(255, 251, 0)
+}
+
