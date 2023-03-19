@@ -30,7 +30,7 @@ btnIs.addEventListener('click', function() {
 })
 
 btnArent.addEventListener('click', function() {
-    let audio = document.getElementById('wrong')
+    let audio = document.getElementById('wrong2')
     audio.play()
     let img02 = document.getElementById('img02')
     img02.style.visibility = 'visible'
